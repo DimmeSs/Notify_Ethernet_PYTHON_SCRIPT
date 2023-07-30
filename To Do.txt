@@ -1,0 +1,5 @@
+angielska wersja
+dopracować wykrywanie neta
+read me do git hubva
+git hub
+clean code

@@ -1,0 +1,97 @@
+
+================================================================================   ENG   ================================================================================================================
+
+Windows:
+
+    1. Create a batch file (with the .bat extension) or a batch script that runs your Python application. For example, create a file named start_my_script.bat with the following content:
+
+```
+
+    @echo off
+    cd "path/to/your/script/"
+    python your_script_name.py
+
+```
+    2. Add the script to the system's autostart:
+        - Press Windows + R, type shell:startup, and press Enter.
+        - Copy the batch file you created earlier to the folder that opens. The script will automatically run on system startup.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Linux (e.g., Ubuntu):
+
+        1.Create a script that runs your Python application, similar to what was described for Linux in the previous response. For example, create a file named start_my_script.sh with the following content:
+
+```
+
+#!/bin/bash
+cd /path/to/your/script/
+python your_script_name.py
+
+```
+        2. Give execute permissions to the script:
+
+```
+        chmod +x start_my_script.sh
+```
+
+        3. Add the script to the system's autostart. There are various ways to achieve this, such as adding the appropriate entry in the .bashrc file, creating a Cron job, or through desktop environment settings (for GNOME, KDE, etc.).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    macOS:
+        1. Create a script that runs your Python application, similar to the one described for Linux.
+
+        2. To add the script to the system's autostart, you can do it through the "Users & Groups" settings in the "Login Items" section. You can add the script as a login item for the user, so it runs automatically after logging in.
+
+
+
+
+================================================================================   PL   ================================================================================================================
+
+Windows:
+
+    1.Utwórz plik wsadowy (o rozszerzeniu .bat) lub skrypt wsadowy, który uruchamia twoją aplikację Pythona. Na przykład, możesz stworzyć plik o nazwie start_my_script.bat z następującą zawartością:
+
+```
+    @echo off
+    cd "ścieżka/do/twojego/skryptu/"
+    python nazwa_twojego_skryptu.py
+```
+
+    2.Dodaj skrypt do autostartu systemu:
+        - Wciśnij klawisz Windows + R, wpisz shell:startup i naciśnij Enter.
+        - Skopiuj stworzony wcześniej plik .bat do folderu, który się otworzył. Skrypt zostanie automatycznie uruchomiony po starcie systemu.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Linux (np. Ubuntu):
+
+    1. Utwórz skrypt, który uruchamia twoją aplikację Pythona. Na przykład, możesz stworzyć plik o nazwie start_my_script.sh z następującą zawartością:
+
+```
+#!/bin/bash
+cd /ścieżka/do/twojego/skryptu/
+python nazwa_twojego_skryptu.py
+```
+
+    2. Nadaj uprawnienia do uruchamiania skryptu:
+
+
+```
+    chmod +x start_my_script.sh
+```
+
+    3. Dodaj skrypt do autostartu systemu. Możesz to zrobić na różne sposoby, np. poprzez dodanie odpowiedniego wpisu w pliku .bashrc, stworzenie zadania Cron lub przez ustawienia środowiska pulpitu (w przypadku pulpitów GNOME, KDE, itp.)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+macOS:
+
+    1. Utwórz skrypt, który uruchamia twoją aplikację Pythona, podobnie jak opisane wcześniej dla systemu Linux.
+
+    2. Aby dodać skrypt do autostartu systemu, można to zrobić przez ustawienia "Użytkownicy i grupy" w sekcji "Elementy logowania". 
+       (Możesz dodać skrypt jako element logowania użytkownika, aby był uruchamiany automatycznie po zalogowaniu się.)
+
+
+
