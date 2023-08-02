@@ -1,5 +1,10 @@
-angielska wersja
 dopracować wykrywanie neta
-read me do git hubva
-git hub
 clean code
+angielska wersja
+git hub
+read me do git hubva
+
+
+ToDo :
+
+Popraw działanie skryptu , clean code , komentarze , tutorial , read.me
