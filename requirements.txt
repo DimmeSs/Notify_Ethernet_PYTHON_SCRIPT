@@ -1,0 +1,4 @@
+pystray==0.17.0
+Pillow==8.4.0
+psutil==5.8.0
+termcolor==1.1.0
