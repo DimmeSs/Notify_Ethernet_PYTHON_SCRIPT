@@ -1,5 +1,0 @@
-DOBRY = Poprawnie Działa
-Słabszy = Gorsza jakość / Sieć niezydentyfikowana / Brak Internetu 
-Brak Połączenia = Brak Połączenia
-
-

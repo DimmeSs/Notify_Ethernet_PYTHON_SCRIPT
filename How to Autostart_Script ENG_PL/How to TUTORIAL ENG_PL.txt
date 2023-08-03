@@ -1,9 +1,17 @@
 
 ================================================================================   ENG   ================================================================================================================
 
+Add a script to the system's autostart:
+
+    Press the Windows key + R, type shell:startup, and press Enter.
+    Copy the Python script OR a shortcut to it, and paste it here.
+
+OR MORE SPECIFIC ACTIONS FOR EACH OPERATING SYSTEM BELOW:
+
+
 Windows:
 
-    1. Create a batch file (with the .bat extension) or a batch script that runs your Python application. For example, create a file named start_my_script.bat with the following content:
+    1. Create a batch file (with the .bat extension for example SCRIPT_Notify_Ethernet.bat or a batch script that runs your Python application. For example, create a file named start_my_script.bat with the following content:
 
 ```
 
@@ -48,9 +56,17 @@ python your_script_name.py
 
 ================================================================================   PL   ================================================================================================================
 
+Dodaj skrypt do autostartu systemu:
+        - Wciśnij klawisz Windows + R, wpisz shell:startup i naciśnij Enter
+	- Skopiuj Python Script LUB skrót do niego i wklej tutaj
+
+
+LUB BARDZIEJ SPRECYZOWANE DZIAŁANIE DLA KAŻDEGO SYSTEMU OPERACYJNEGO PONIŻEJ 
+
+
 Windows:
 
-    1.Utwórz plik wsadowy (o rozszerzeniu .bat) lub skrypt wsadowy, który uruchamia twoją aplikację Pythona. Na przykład, możesz stworzyć plik o nazwie start_my_script.bat z następującą zawartością:
+    1.Utwórz plik wsadowy (o rozszerzeniu .bat np. SCRIPT_Notify_Ethernet.bat) lub skrypt wsadowy, który uruchamia twoją aplikację Pythona. Na przykład, możesz stworzyć plik o nazwie start_my_script.bat z następującą zawartością:
 
 ```
     @echo off

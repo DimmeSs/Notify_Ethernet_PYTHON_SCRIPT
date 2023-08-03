@@ -1,2 +1,2 @@
-# Notify_Ethernet_SCRIPT
+# Notify_Ethernet_PYTHON_SCRIPT
  

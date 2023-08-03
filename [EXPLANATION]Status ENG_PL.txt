@@ -1,0 +1,9 @@
+============== ENG ==============
+GOOD = Works Correctly
+WEAKER = Lower Quality / Unidentified Network / No Internet
+NO CONNECTION = No Connection
+
+============== PL ==============
+DOBRY = Poprawnie Działa
+Słabszy = Gorsza jakość / Sieć niezydentyfikowana / Brak Internetu 
+Brak Połączenia = Brak Połączenia
