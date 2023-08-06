@@ -35,8 +35,7 @@ Whether you've been grappling with random connectivity interruptions, poor netwo
 1. Clone this repository: `git clone https://github.com/DimmeSs/Notify_Ethernet_PYTHON_SCRIPT.git`
 2. Navigate to the project directory: `cd Notify_Ethernet_PYTHON_SCRIPT`
 3. Install the required dependencies: `pip install -r requirements.txt`
-4. Configure the script settings in `config.py`.
-5. Run the script: `python main.py`
+4. Run the script: `python main.py`
 
 ---
 
